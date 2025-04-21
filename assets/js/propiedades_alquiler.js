@@ -1,3 +1,5 @@
+/* Crear un arreglo con todas las propiedades en alquiler. cada objeto incluye los atributos necesarios para ser mostrados en la página*/
+
 const propiedades_alquiler = [
     {
         nombre: "Apartamento en el centro de la ciudad",
@@ -40,6 +42,8 @@ const propiedades_alquiler = [
         pets: false
     }
 ];
+
+/*Seleccionar la sección del HTML donde irán las tarjetas. Recorrer arreglo y utilizar interpolación y condicionales para el estilo según su tipo*/
 
 const alquilerSection = document.querySelector("#alquiler");
 

@@ -1,4 +1,5 @@
 
+/* Crear un arreglo con todas las propiedades en venta. cada objeto incluye los atributos necesarios para ser mostrados en la página*/
 
 const propiedades_venta = [
     {
@@ -42,6 +43,8 @@ const propiedades_venta = [
         pets: false
     }
 ];
+
+/*Seleccionar la sección del HTML donde irán las tarjetas. Recorrer arreglo y utilizar interpolación y condicionales para el estilo según su tipo*/
 
 const ventaSection = document.querySelector("#venta");
 
